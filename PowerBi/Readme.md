@@ -11,7 +11,7 @@ Instead of just showing numbers, the dashboard is designed to tell a story — s
 ##  Files Included
 
 * `Retail_analysis.pbix` → Full Power BI dashboard
-* `images/` → Screenshots of all pages
+* `images of dashboard/` → Screenshots of all pages
 * `README.md` → Project explanation
 
 ---
