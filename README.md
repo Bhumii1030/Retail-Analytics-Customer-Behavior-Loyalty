@@ -1,4 +1,4 @@
-#Retail Intelligence & Strategic Growth Playbook
+# Retail Intelligence & Strategic Growth Playbook
 
 ## The Objective:
 This project is built to analyse current business revenue , various demographics and dictate future business actions. 
