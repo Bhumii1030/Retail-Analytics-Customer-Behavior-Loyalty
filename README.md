@@ -1,4 +1,4 @@
-# Retail Intelligence & Strategic Growth Playbook
+# Retail Intelligence & Strategic Growth Model
 
 ## The Objective:
 This project is built to analyse current business revenue , various demographics and dictate future business actions. 
@@ -38,9 +38,9 @@ Data is useless without a decision.
 * **Restructure Subscription Economics:** Pivot the subscription model away from a flat "Free Shipping" perk into a "Quarterly Store Credit" system. This forces larger basket sizes and perfectly aligns with the highly profitable quarterly shopper cadence.
 
 ## Repository Structure
-Dataset.csv: The original, raw transactional dataset.
-Data_cleaning.ipynb: Jupyter Notebook containing the Python/Pandas code for data cleaning, handling nulls, and feature engineering.
-shopping_cleaned.csv: The processed and structured dataset outputted from the Jupyter Notebook.
-Retail_analytic.sql: The SQL scripts used to extract cohort metrics, seasonal trends, and demographic aggregations.
-PowerBi/: Directory containing the interactive Power BI dashboard file (Retail analysis.pbix).
-Presentation.pptx: Slide deck containing the executive summary, visual insights, and the final strategic action plan.
+* `Dataset.csv`: The original, raw transactional dataset.
+* `Data_cleaning.ipynb`: Jupyter Notebook containing the Pandas code for data cleaning, handling nulls, and feature engineering.
+* `shopping_cleaned.csv`: The processed and structured dataset outputted from the Jupyter Notebook.
+* `Retail_analytic.sql`: The SQL scripts used to extract cohort metrics, seasonal trends and demographic aggregations.
+* `PowerBi`: Directory containing the interactive Power BI dashboard file (Retail analysis.pbix).
+* `Presentation.pptx`: Slide deck containing the executive summary, visual insights, and the final strategic action plan.
