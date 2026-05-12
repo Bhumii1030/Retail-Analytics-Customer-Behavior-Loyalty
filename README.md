@@ -12,15 +12,12 @@ By running a forensic teardown of over 3,900 retail transactions to extract hidd
 
 ## Data Pipeline & Feature Engineering (Python)
 Before running SQL aggregations, Utilisation was done to clean the dataset and engineer new features that would expose underlying customer behaviors.
-
 * **RFM Matrix Engineering:** Calculated Recency, Frequency, and Monetary values for every unique customer ID to segment the user base into distinct behavioral cohorts like "Quarterly High-Value" and "Weekly Deal Hunters".
 * **Loyalty Signal Calculation:** Engineered a custom `future_loyalty_signal` metric by weighting repeat visit intervals, average cart value, and historical review scores to predict long term retention.
 * **Categorical Binning & Standardization:** Processed raw age data into distinct marketing brackets (e.g., 18-25, 50+) and parsed raw product reviews into structured satisfaction tiers (Elite, Average, Risk) for downstream SQL querying.
 * **LTV (Lifetime Value) Modeling:** Computed the projected monetary value of customer segments based on their acquisition channel and subscription status to measure true profitability versus initial acquisition cost.
 
 ## The Discoveries:
-The data revealed massive flaws in standard retail assumptions.
-
 * **The Demographic Reality Check:** Chasing younger demographics proved to be a waste of marketing capital. The 50+ male demographic generates the highest lifetime value, buys at the highest frequency, and responds most profitably to discount campaigns. 
 * **The Gifting Anomaly:** The top revenue drivers for male accounts are dresses and high-ticket jewelry. Men are not buying for themselves, they are using the platform heavily for gifting.
 * **The Quality Churn Trap:** Women's shirts drive massive volume but holding the absolute lowest satisfaction score. 
@@ -29,8 +26,6 @@ The data revealed massive flaws in standard retail assumptions.
 * **Micro-Climatic Seasonality:** Customers ignore the traditional retail calendar. Sunglasses rank as a top-two revenue driver in the winter while heavy sweaters remain the top seller throughout spring.
   
 ## The Execution Plan: 
-Data is useless without a decision. 
-
 * **Redesign the Acquisition Funnel:** Use high volume, low margin clothing to acquire customers, then actively retarget them into the high loyalty footwear category.
 * **Dynamic Payment Friction Removal:** Redesign the checkout logic based on demographic payment affinities. Default to a Venmo integration for the 26–35 cohort and traditional Credit Card inputs for the 50+ cohort.
 * **Launch an Executive Gift Concierge:** Trigger targeted UI takeovers for male accounts 30 days prior to major holidays to capitalize on the male gifting trend with high margin premium wrapping upsells.
