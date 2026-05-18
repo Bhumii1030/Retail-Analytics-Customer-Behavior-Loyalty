@@ -38,4 +38,4 @@ Before running SQL aggregations, Utilisation was done to clean the dataset and e
 * `shopping_cleaned.csv`: The processed and structured dataset outputted from the Jupyter Notebook.
 * `Retail_analytic.sql`: The SQL scripts used to extract cohort metrics, seasonal trends and demographic aggregations.
 * `PowerBi`: Directory containing the interactive Power BI dashboard file (Retail analysis.pbix).
-* `Presentation.pptx`: Slide deck containing the executive summary, visual insights, and the final strategic action plan.
+* `Retail Analysis.pptx`: Slide deck containing the executive summary, visual insights, and the final strategic action plan.
